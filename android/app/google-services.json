@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "671727476299",
+    "firebase_url": "https://coachabdou-818ad.firebaseio.com",
+    "project_id": "coachabdou-818ad",
+    "storage_bucket": "coachabdou-818ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671727476299:android:d1583c048a4926b6b2b7ce",
+        "android_client_info": {
+          "package_name": "com.coachabdou.coach_abdou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671727476299-cj9g3skht0om3pfkspt0dbk0r2djd2oc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAj6VOP-cyFwiy_Yhvdd4WPKfGnUp2PLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671727476299-cj9g3skht0om3pfkspt0dbk0r2djd2oc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
