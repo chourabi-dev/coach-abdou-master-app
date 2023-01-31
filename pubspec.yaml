@@ -25,7 +25,7 @@ dependencies:
   photo_view: ^0.10.3
   fl_chart: ^0.12.2
   font_awesome_flutter:
-  app_review: 
+  app_review:
 
   cupertino_icons: ^0.1.3
 

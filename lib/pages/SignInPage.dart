@@ -7,6 +7,8 @@ import 'package:coach_abdou/pages/HomeScreen.dart';
 import 'package:coach_abdou/pages/NewPassword.dart';
 import 'package:coach_abdou/services/api.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
+
 
 class SignInPage extends StatefulWidget {
   SignInPage({Key key, this.title}) : super(key: key);
@@ -32,6 +34,9 @@ class _SignInPageState extends State<SignInPage> {
       _isLoading = false;
     });
   }
+
+
+
 
   _showAlert(String title, String message, String okButton) async {
     return showDialog<void>(

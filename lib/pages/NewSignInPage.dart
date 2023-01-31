@@ -9,6 +9,7 @@ import 'package:coach_abdou/pages/HomeScreen.dart';
 import 'package:coach_abdou/pages/SignInPage.dart';
 import 'package:coach_abdou/services/api.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class EmailPasswordSigninPage extends StatefulWidget {
   EmailPasswordSigninPage({Key key}) : super(key: key);
@@ -36,6 +37,25 @@ class _EmailPasswordSigninPageState extends State<EmailPasswordSigninPage> {
     super.initState();
     _checkForAuth();
   }
+
+
+
+
+
+  _openResetPassword() async {
+    const url = 'https://coach-abdou.com/API/mobile/public/index.php';
+
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+}
+
+
+
+
+
 
   void _onLoading() {
     showDialog(
@@ -240,9 +260,11 @@ class _EmailPasswordSigninPageState extends State<EmailPasswordSigninPage> {
 
                 GestureDetector(
                   onTap: (){
-                    Navigator.push(context, new MaterialPageRoute(builder: (context){
+                    /*Navigator.push(context, new MaterialPageRoute(builder: (context){
                       return new ResetPasswordPage();
-                    }));
+                    }));*/
+
+                    _openResetPassword();
                   },
               child: Container(
               padding: EdgeInsets.only( ),
