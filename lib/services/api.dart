@@ -45,8 +45,7 @@ class Api {
 
   Future<Response> userAuth(String code, String password) async {
     String endPoint = this.url+"/API/mobile/userAuth/index.php";
-
-
+ 
   
   String json = '{"code": "'+code+'" , "password": "'+password+'" }';
 

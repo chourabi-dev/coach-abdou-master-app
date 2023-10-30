@@ -13,7 +13,7 @@ import 'package:coach_abdou/pages/SignInPage.dart';
 import 'package:coach_abdou/services/api.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:app_review/app_review.dart';
+//import 'package:app_review/app_review.dart';
 
 
 class UpdateWeeklyData extends StatefulWidget {
@@ -88,11 +88,11 @@ class _UpdateWeeklyDataState extends State<UpdateWeeklyData> {
 
    _requestReview() async {
        
-          AppReview.storeListing.then((res)=>{
+          /*AppReview.storeListing.then((res)=>{
                              
                             }).catchError((err)=>{
                               
-                            });
+                            });*/
       
 
   }

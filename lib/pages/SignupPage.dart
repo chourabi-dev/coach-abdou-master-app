@@ -595,7 +595,7 @@ Future<void> _showAlert(String title,String message) async {
                     onChanged: _sexChange,
                     activeColor: Colors.yellowAccent,
                   ),
-                  Text("Male / الذكر", style: TextStyle(color: Colors.white,fontSize: 17),),
+                  Text("Male / ذكر", style: TextStyle(color: Colors.white,fontSize: 17),),
                   new Radio(
                     value: "Female",
                     groupValue: _sexValue,

@@ -153,7 +153,7 @@ class ExercicePreview extends StatelessWidget {
               try {
                 _launchInBrowser(exercie['url']);
               } catch (e) {
-                print("taw hetha lien nayek !!");
+                
               }
             },
           ),

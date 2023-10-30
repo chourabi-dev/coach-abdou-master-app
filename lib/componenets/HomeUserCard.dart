@@ -97,6 +97,7 @@ class _HomeUserCardState extends State<HomeUserCard> {
     int exactPassedDays = daysPassed.round();
 
     return exactPassedDays;
+    
   }
 
   _countNextRnewelDay() {
